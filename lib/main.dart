@@ -5,6 +5,7 @@ import 'package:flutter_animations_1_ramin/4_animated_opacity.dart';
 import 'package:flutter_animations_1_ramin/5_animated_positioned.dart';
 import 'package:flutter_animations_1_ramin/6_animated_size.dart';
 import 'package:flutter_animations_1_ramin/7_animated_padding.dart';
+import 'package:flutter_animations_1_ramin/8_animated_default_text_style.dart';
 
 import '1_animated_container.dart';
 
@@ -31,7 +32,8 @@ class MyApp extends StatelessWidget {
       // home: const FourAnimatedOpacity(),
       // home: const FiveAnimatedOpacity(),
       // home: const SixAnimatedSize(),
-      home: const SevenAnimatedPadding(),
+      // home: const SevenAnimatedPadding(),
+      home: const EightAnimatedDefaultTextStyle(),
     );
   }
 }
