@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_animations_1_ramin/10_challenge_two.dart';
 import 'package:flutter_animations_1_ramin/2_animated_align.dart';
 import 'package:flutter_animations_1_ramin/3_animated_cross_fade.dart';
 import 'package:flutter_animations_1_ramin/4_animated_opacity.dart';
@@ -6,6 +7,7 @@ import 'package:flutter_animations_1_ramin/5_animated_positioned.dart';
 import 'package:flutter_animations_1_ramin/6_animated_size.dart';
 import 'package:flutter_animations_1_ramin/7_animated_padding.dart';
 import 'package:flutter_animations_1_ramin/8_animated_default_text_style.dart';
+import 'package:flutter_animations_1_ramin/9_challenge_one.dart';
 
 import '1_animated_container.dart';
 
@@ -33,7 +35,9 @@ class MyApp extends StatelessWidget {
       // home: const FiveAnimatedOpacity(),
       // home: const SixAnimatedSize(),
       // home: const SevenAnimatedPadding(),
-      home: const EightAnimatedDefaultTextStyle(),
+      // home: const EightAnimatedDefaultTextStyle(),
+      // home: const NineChallengeOne(),
+      home: const TenChallengeTwo(),
     );
   }
 }
